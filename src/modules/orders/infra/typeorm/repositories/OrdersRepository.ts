@@ -2,7 +2,6 @@ import { getRepository, Repository } from 'typeorm';
 
 import IOrdersRepository from '@modules/orders/repositories/IOrdersRepository';
 import ICreateOrderDTO from '@modules/orders/dtos/ICreateOrderDTO';
-import AppError from '@shared/errors/AppError';
 import Order from '../entities/Order';
 
 class OrdersRepository implements IOrdersRepository {
