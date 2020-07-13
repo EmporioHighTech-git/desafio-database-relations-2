@@ -12,6 +12,7 @@ export default class CreateTableCustomers1589501663209
             type: 'varchar',
             isPrimary: true,
             generationStrategy: 'uuid',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'name',

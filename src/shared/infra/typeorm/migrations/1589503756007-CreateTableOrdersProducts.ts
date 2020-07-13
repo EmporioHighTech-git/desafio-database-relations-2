@@ -17,6 +17,7 @@ export default class CreateTableOrdersProducts1589503756007
             type: 'varchar',
             isPrimary: true,
             generationStrategy: 'uuid',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'product_id',
